@@ -9,5 +9,5 @@ class Pessoa{
 }
 
 const pe1 = new Pessoa();
-pe1.nome = 'Diego'
+pe1.nome = 'Diego';
 pe1.falar();
