@@ -26,3 +26,4 @@ function excluirProduto(id) {
 }
 
 module.exports = { salvarProduto, getProduto, getProdutos, excluirProduto };
+//teste
