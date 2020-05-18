@@ -31,7 +31,10 @@
         <button>Pesquisar</button>
     </form>
     <script>
-        // ...
+        console.log(document.forms[0])
+        console.log(document.getElementsByName('pesquisa'))
+        const valorForm = document.pesquisa.q
+        valorForm.value = 'teste'
     </script>
 </body>
 
